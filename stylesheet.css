@@ -1,0 +1,369 @@
+body {
+    background-color: #C7C8CC;
+    font-family:"Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.aboutPage,.portfolioPage,.contactPage{
+    margin: auto;
+    padding: 2% 5%;
+}
+.homePage{
+    margin-top: 5%;
+}
+/*==========> HEADER OR NAVIGATION BAR <===========*/
+.navbar {
+    background-color: #F2EFE5; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    transition: top 0.3s; 
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; 
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: #C7C8CC;
+  }
+  
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; 
+    }
+  }
+/*<========= END OF HEADER OR NAVIGATION BAR =============>*/
+
+/*START OF HOME PAGE */
+.title-text {
+    float: left;
+    padding-left: 8%;
+}
+h1 {
+    margin: 0;
+    font-size: 10em;
+    font-weight: 500
+;
+}
+.marquee---box {
+    background-color: #F2EFE5;
+    border-radius: 100px;
+    margin: auto;
+    max-width: 800px;
+}
+p{
+    font-size: 25px;
+    margin: 0;
+}
+.title_chrislee,
+.title_buenaps {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 900;
+}
+.title_chrislee {
+    padding-top: 25%;
+    line-height: 9em;
+}
+.title_buenaps {
+    padding-bottom: 15%;
+    line-height: 6.5em;
+}
+
+/* IMAGE */
+.home-image{
+    height: 600px;
+    width: 600px;
+    border: 3px solid #F2EFE5;
+    border-radius: 50%;
+}
+/* END OF HOMEPAGE */
+
+
+
+/* START OF PORTFOLIO PAGE */
+.img-set1,.img-set2{
+    text-align: center;
+}
+.jpg{
+    height: 400px;
+    width: 400px;
+    padding: 5px 3px;
+}
+
+/* END OF PORTFOLIO PAGE */
+.image{
+    display: flex;
+    padding: 5% 5% 5% 5%;
+}
+
+
+
+/*START OF ABOUT PAGE STYLES*/
+
+.aboutDetails,.mySkills,.badges{
+    margin-bottom: 3%;
+}
+p.about{
+    text-align: justify;
+    margin: 0% 6.5%;
+    font-size: 20px;
+}
+            /* SKILLS */
+
+.container {
+    width: 100%;
+    background-color: #B4B4B8;
+  }
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+  }
+  .network{width: 95%; background-color: #E3E1D9;}
+  .web {width: 85%; background-color: #E3E1D9;}
+  .data {width: 80%; background-color: #E3E1D9;}
+
+            /* BADGES */
+  .badges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+  }
+  .partners,.projects,.clients,.meetings{
+    margin: 16px 0;
+    flex: 1;
+    text-align: center;
+  }
+
+.numbers{
+    font-size: 2.5em;
+  }
+.dan_name,.vic_name,.sam_name{
+    font-size: 35px;
+    font-weight: 600;
+}
+        /* DOWNLOAD RESUME BUTTON */
+.btn{
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #F2EFE5;
+    color: #333;
+    padding: 16px 24px;
+    margin: 16px 0;
+  }
+  .btn a {
+    text-decoration-line: none;
+    color: #333;
+  }
+
+.btn:hover{
+    background-color: #E3E1D9;
+  }
+
+            /* TESTOMONIALS */
+.reputation{
+    padding: 24px 0; 
+}
+.dan_jpeg,.vic_jpeg,.sam_jpeg{
+    float: left;
+    border-radius: 50%;
+    margin-right: 16px;
+    max-width: 80px;
+    max-height: 80px;
+}
+.testimonial-container {
+    margin-bottom: 40px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+        /* SALARY EXPECTATION */
+
+h3,li{
+    padding: 16px;
+}
+
+.job-container{
+    margin: 0 15%;
+}
+.network-container,.web-container{
+    width: 50%;
+    float: left;
+    padding: 0 16px;
+    margin-bottom: 20px;
+}
+.network-details,.web-details{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.network-details:hover,.web-details:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+.permonth{
+    opacity: 0.6;
+}
+.btn-bg{
+    background-color: #f1f1f1;
+    padding: 24px;
+}
+.btn-send{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #ffffff;
+}
+.btn-send:hover{
+    background-color: #000;
+    color: #fff;
+}
+.network-name,.web-name{
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    padding: 32px 0;
+}
+li{
+    padding: 16px;
+    border-bottom: 1px solid #B4B4B8;
+    background-color: #E3E1D9;
+}
+.network-details li:last-child,.web-details li:last-child{
+    border-bottom: none;
+}
+
+/* END OF ABOUT PAGE */
+
+
+/* START OF CONTACT PAGE */
+.contactPage{
+    display:inline-block;
+    margin-bottom: 64px;
+}
+
+.cntctInfo{
+    margin-bottom: 20px;
+}
+.cntctInfo p {
+    margin-bottom: 10px;
+    padding: 0 5%;
+}
+
+.cntctInfo .fa {
+    font-size: 24px;
+    margin-right: 20px;
+}
+/* Style for input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Style for the button */
+button[type="submit"] {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #B4B4B8;
+}
+
+/* Style for the icon */
+.fa-paper-plane::before {
+    content: "\f1d8";
+    font-family: "FontAwesome";
+    margin-right: 10px;
+}
+
+footer {
+    padding: 32px 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+footer i {
+    font-size: 10px;
+    margin: 0 10px;
+    color: #555;
+    transition: color 0.3s;
+}
+
+footer a i:hover {
+    color: blue;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+#map{
+    height: 500px;
+    width: 1700px;
+}
+/* END OF CONTACT PAGE */
+
